@@ -1,0 +1,127 @@
+body {
+    overflow: hidden;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    height: 45px;
+    width: 180px;
+    background-color: #1e5bc5;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    margin-top: 6px;
+    font-size: 1rem;
+}
+
+.texts {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.texts h1 {
+    font-size: 4.25rem;
+    font-weight: 100;
+}
+
+.texts h1 span {
+    background: -webkit-linear-gradient(left, #6e13d1, #2346cb, #19a4b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texts h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 60px;
+    right: 78px;
+}
+
+.footer h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+        right: 233px;
+        top: 60px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+    &:first-child{
+        margin-left: 366px;
+    }
+    margin-right: 22px;
+}
+
+.footer input {
+    height: 42px;
+    width: 260px;
+    border-top-left-radius: 5000px;
+    border-bottom-left-radius: 5000px;
+    border-color: black;
+    outline: none;
+    &::placeholder{
+        position: relative;
+        left: 28px;
+    }
+}
+
+.footer .search{
+    background-color: black;
+    width: 62px;
+    height: 48px;
+    border: none;
+    position: relative;
+    top: 2px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5000px;
+    border-bottom-right-radius: 5000px;
+    left: -6px;
+}
+
+
+
+
+
+
+.last {
+    width: 100%;
+    height: 33px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+}
+
+.last li {
+    position: relative;
+    top: 50%;
+    transform: translateY(-20%);
+    right: 166px;
+    list-style-type: none;
+}
+.last a {
+    text-decoration: none;
+    color: black;
+    margin-left: 13px;
+}
+.last p {
+    position: relative;
+    top: -36px;
+    left: 132px;
+}
